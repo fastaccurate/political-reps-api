@@ -26,7 +26,7 @@ This API allows users to query political representatives (federal, state, and lo
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/yourusername/political-reps-api.git
+git clone https://github.com/fastaccurate/political-reps-api.git
 cd political-reps-api
 ```
 
