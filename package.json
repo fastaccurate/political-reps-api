@@ -1,0 +1,38 @@
+{
+  "name": "political-representatives-api",
+  "version": "1.0.0",
+  "description": "API that returns political representative details for U.S. ZIP codes",
+  "main": "server-updated.js",
+  "scripts": {
+    "start": "node server-updated.js",
+    "dev": "nodemon server-updated.js",
+    "test": "echo \"No tests specified\" && exit 0",
+    "scrape": "cd scrapers && python main_scraper.py --demo",
+    "setup-db": "psql -U postgres -d political_reps_db -f database/schema.sql"
+  },
+  "keywords": [
+    "political",
+    "representatives",
+    "zip",
+    "api",
+    "civic",
+    "government"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "helmet": "^7.0.0",
+    "joi": "^17.9.2",
+    "morgan": "^1.10.0",
+    "pg": "^8.11.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
