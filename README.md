@@ -283,16 +283,6 @@ The application includes production-ready features:
 - [x] Production-ready server configuration
 - [x] Sample data for 3 ZIP codes
 
-### 🎥 Demo Video
-
-A demonstration video showing:
-1. API endpoints working with sample ZIP codes
-2. Database schema and data relationships  
-3. Python scraping system in action
-4. Design decisions and architecture explanation
-
-**Video Link**: [Upload to Google Drive and include link here]
-
 ## 🔮 Future Enhancements
 
 For production deployment, additional features could include:
@@ -323,15 +313,5 @@ For production deployment, additional features could include:
 - **BeautifulSoup**: Reliable HTML parsing with good error handling
 - **Respectful Scraping**: Rate limiting and user agent rotation
 - **Data Quality**: Validation, normalization, and duplicate removal
-
-## 📄 License
-
-MIT License - see LICENSE file for details.
-
-## 🔗 Repository
-
-**GitHub**: [https://github.com/yourusername/political-reps-api](https://github.com/yourusername/political-reps-api)
-
----
 
 Built with ❤️ for the Civic Tracker technical challenge.
